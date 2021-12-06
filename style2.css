@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* CSS Document */
+.animation{
+    opacity : 0;
+    visibility: hidden;
+    transition: 1s;
+    transform: translateY(7.81vw);
+    background-color: #E2B3B4;
+}
+.active{
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+body{
+
+}
+header{
+	position: fixed;
+	z-index: 100;
+}
+.logo img,.flogo img{
+	width: 5.56vw;
+}
+.mainnav{
+    width: 13.47vw;
+	height: 55.56vw;
+	text-align: center;
+}
+.mainnav img{
+	padding-top: 2.78vw;
+}
+.mainnav ul{
+	margin-left: 2vw;
+	margin-top: 26.39vw;
+}
+.mainnav li{
+    text-align: left;
+    list-style-type: none;
+    font-family: eb-garamond;
+    font-size: 1.25vw;
+    letter-spacing: 0.2em;
+	color: #333;
+	transition: all 0.5s;
+}
+.mainnav li:hover{
+    color: #9C9C9C;
+}
+.sabnav{
+	width: 100vw;
+	height: 10.417vw;
+	text-align: right;
+	margin-top: -55.556vw;
+}
+.cart{
+	padding-right: 3.472vw;
+	padding-top: 1.389vw;
+}
+.menu{
+	padding-right: 2.431vw;
+	padding-top: 1.042vw;
+}
+#top{
+    width: 100vw;
+    height: 208.33vw;
+    background-image: url(image/tomori.png);
+    background-size: 100vw;
+}
+footer{
+    position: relative;
+	margin-top: -11vw;
+}
+.scroll{
+	position: absolute;
+	right: 7.5vw;
+    font-family: eb-garamond;
+    font-size:1.25vw;
+    letter-spacing: 0.4em;
+    color: #333;
+	ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+}
+
