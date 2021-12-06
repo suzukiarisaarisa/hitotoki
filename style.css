@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.animation{
+    opacity : 0;
+    visibility: hidden;
+    transition: 1s;
+    transform: translateY(7.81vw);
+    background-color: #E2B3B4;
+}
+.active{
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+body{
+
+}
+header{
+	position: fixed;
+	z-index: 100;
+}
+.logo img,.flogo img{
+	width: 5.56vw;
+}
+.mainnav{
+    width: 13.47vw;
+	height: 55.56vw;
+	text-align: center;
+}
+.mainnav img{
+	padding-top: 2.78vw;
+}
+.mainnav ul{
+	margin-left: 4.17vw;
+	margin-top: 26.39vw;
+}
+.mainnav li{
+    text-align: left;
+    list-style-type: none;
+    font-family: eb-garamond;
+    font-size: 1.25vw;
+    letter-spacing: 0.2em;
+	color: #333;
+	transition: all 0.5s;
+}
+.mainnav li:hover{
+    color: #9C9C9C;
+}
+.sabnav{
+	width: 100vw;
+	height: 10.417vw;
+	text-align: right;
+	margin-top: -55.556vw;
+}
+.cart{
+	padding-right: 3.472vw;
+	padding-top: 1.389vw;
+}
+.menu{
+	padding-right: 2.431vw;
+	padding-top: 1.042vw;
+}
+#top{
+    text-align: right;
+    height: 125vw;
+}
+.topimg{
+	position: sticky;
+    top: 0;
+}
+.topimg img{
+	width: 86.11vw;
+}
+.copy{
+	z-index: 1000;
+	position: absolute;
+	right:0px;
+	top: 24.306vw;
+	z-index: 100;
+}
+.copy img{
+	width: 87.36vw;
+}
+.abouttx{
+    position: absolute;
+    z-index: 100;
+	left: 33.333vw;
+	top:62.5vw;
+}
+.abouttx p{
+    font-family: ten-mincho;
+    font-size: 1.11vw;
+    letter-spacing: 0.4em;
+    line-height: 3em;
+    ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    text-align: left;
+    color: #FFFFFF;
+}
+#purduct{
+    position: relative;
+    margin-top: 6.944vw;
+    height: 360.069vw;
+    background-image: url(image/back.jpg);
+    background-size: 100vw;
+}
+
+#purduct div{
+    text-align: center;
+    width: 12.5vw;
+    height: 2.778vw;
+    line-height: 2.778vw;
+    font-family: eb-garamond;
+    font-size:1.02vw;
+    letter-spacing: 0.4em;
+    color: #565656;
+    border: 0.3px solid #8E8E8E;
+    position: absolute;
+	transition: all 0.5s;
+}
+#purduct div:hover{
+    background-color: #EAEAEA;
+}
+.v1{
+	left: 65.278vw;
+	top:52.292vw;
+}
+.v2{
+	left: 20.972vw;
+	top:108.472vw;
+}
+.v3{
+	left: 66.667vw;
+	top:166.667vw;
+}
+.v4{
+	left: 17.5vw;
+	top:220.139vw;
+}
+.v5{
+	left:64.931vw;
+	top:268.056vw;
+}
+footer{
+    position: relative;
+	margin-top: -13.889vw;
+}
+.scroll{
+	position: absolute;
+	right: 8.819vw;
+    font-family: eb-garamond;
+    font-size:1.25vw;
+    letter-spacing: 0.4em;
+    color: #333;
+	ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+}
+
